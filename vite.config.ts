@@ -1,5 +1,8 @@
 import { vitePlugin as remix, netlifyPreset } from "@remix-run/dev";
-// import { netlifyPreset } from "@remix-run/netlify"; // This line should be removed or commented out if it exists
+// import remixDev from "@remix-run/dev"; // Comment out or remove this line
+// const { vitePlugin: remix, netlifyPreset } = remixDev; // Comment out or remove this line
+
+// import { netlifyPreset } from "@remix-run/netlify"; // Comment out or remove this line
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
